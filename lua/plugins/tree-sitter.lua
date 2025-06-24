@@ -34,10 +34,5 @@ return {
             }, -- textobjects
         }
     end,
-    dependencies = {
-        -- Install official queries and filetype detection
-        -- alternatively, see section "Install official queries only"
-        { "nushell/tree-sitter-nu" },
-    },
     build = ":TSUpdate",
 }
